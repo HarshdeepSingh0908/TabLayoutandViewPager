@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TabLayoutAndViewPager" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green_color</item> <!-- Change "your_green_color" to the actual color you want to use -->
+    </style>
+
+    <style name="Theme.TabLayoutAndViewPager" parent="Base.Theme.TabLayoutAndViewPager" />
+
+    <color name="green_color">#4CAF50</color>
+    <style name="Circular">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
